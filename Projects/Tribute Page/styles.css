@@ -1,0 +1,114 @@
+a{
+	color: #c588c6;
+}
+a:hover{
+	color: #c967ca;
+}
+#main{
+	background-color: #d8c4ff7a;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url(./images/floral.png);
+	background-blend-mode: hard-light;
+	
+}
+
+h1, h2, article, ul, li{
+	font-family: 'Crimson Text', serif;
+	color: #7d327e;
+}
+
+h1{
+    font-size: 10.3em;
+    margin-bottom: 21px;
+    margin-top: 50px;
+    letter-spacing: 5px;
+    font-family: 'Dancing Script', cursive;
+}
+
+h2{
+	margin-top: 0px;
+    font-size: 5em;
+    letter-spacing: 6px;
+}
+
+h3{
+    font-size: 2.5em;
+    text-decoration: underline;
+    color: #c588c6;
+    font-family: 'Crimson Text', serif;
+
+}
+h3:hover{
+	color: #c967ca;
+}
+#title{
+    text-align: center;
+    width: 98vh;
+    display: flex;
+    height: 32vh;
+    flex-direction: column;
+    margin: 48px;
+}
+
+#img-div{
+	display: flex;
+    justify-content: center;
+    box-shadow: 8px 1px 60px 0px #817e818a;
+    width: 100%;
+}
+
+#image{
+	
+    width: 20%;
+    height: 90%;
+    border-radius: 10%;
+    box-shadow: 8px 1px 60px 0px #817e818a;
+    margin: 30px;
+}
+
+#img-caption{
+    text-align: center;
+    width: 84vh;
+    font-size: 2.2em;
+    margin: 20px;
+    align-items: center;
+    display: flex;
+
+}
+#tribute-wrap{
+	display: flex;
+	align-items: center;
+}
+#tribute-info{
+	height: 65vh;
+    display: flex;
+    width: 100vh;
+    align-items: center;
+}
+#tribute-info ul li{
+    font-size: 2.3em;
+    flex-direction: column;
+    margin: 25px;
+}
+/*
+.banner{
+    height: 80vh;
+    width: 1vh;
+    background-color: black;
+    border-radius: 48%;
+}
+*/
+
+#tribute-link{
+
+}
+footer{
+	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    box-shadow: 8px 1px 60px 0px #817e818a
+}

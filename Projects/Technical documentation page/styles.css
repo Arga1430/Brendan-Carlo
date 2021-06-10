@@ -1,0 +1,173 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+	list-style: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+header{
+	font-size: 2.95em;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+	font-size: 1.6em;
+	margin: 25px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    flex-direction: column;
+}
+
+body{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	display: flex;
+	background-image: url('./images/background.jpg');
+	
+}
+li.nav-link {
+    border-top: 3px solid #4f4848;
+    font-size: 1.7em;
+    width: 59%;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+nav{
+	font-size: 1em;
+    background-color: #00000070;
+    width: 32vw;
+}
+#logo{
+	width: 360px;
+    height: 140px;
+    margin-top: 40px;
+}
+
+#main-doc {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 3px solid #4f4848;
+    padding: 20px 28px 20px 15.4vw;
+    width: 89vw;
+    border-right: 3px solid #4f4848;
+}
+#form{
+padding: 70px 30px;
+    display: flex;
+    height: 100vh;
+    width: 13%;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    background-color: #00000070;
+    justify-content: center;
+}
+
+#form h3{
+	text-align: center;
+    font-size: 3em;
+}
+
+#submit{
+	background-color: #31313159;
+    color: white;
+    border-radius: 4px;
+}
+
+footer{
+    display: flex;
+    height: 100vh;
+    width: 14%;
+}
+
+#navbar{
+    display: flex;
+    width: 14%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+        position: fixed;
+}
+
+#navbar header{
+    border-right: 0px solid #4f4848;
+    width: 100%;
+    font-size: 2.7em;
+    text-align: center;
+    padding: 10px;
+
+}
+.nav-link a{
+
+}
+
+#care_instructions header{
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen (max-width: 900px;) {
+
+}
